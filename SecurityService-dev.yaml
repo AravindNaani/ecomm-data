@@ -4,3 +4,15 @@ jwt:
 
 server:
   port: 8090
+
+spring:
+  config:
+    import: "optional:classpath:http://localhost:8091/ConfigServer"
+
+eureka:
+  server:
+    fetch-registry: true
+    register-with-eureka: true
+  client:
+      service-url:
+          defaultZone: "http://localhost:8761/eureka/"
