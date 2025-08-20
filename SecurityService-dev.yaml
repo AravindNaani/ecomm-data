@@ -1,0 +1,3 @@
+jwt:
+  secret: "AravindUma1330#"
+  expirationMs: 1000
