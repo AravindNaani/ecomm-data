@@ -23,3 +23,9 @@ management:
   info:
     env: 
       enabled: true
+
+logging:
+  level:
+    com:
+      ecom:
+        Security_Service: DEBUG
