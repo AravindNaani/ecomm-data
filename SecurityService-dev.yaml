@@ -6,6 +6,8 @@ server:
   port: 8090
 
 eureka:
+  instance:
+    preferIpAddress: true
   server:
     fetch-registry: true
     register-with-eureka: true
