@@ -1,6 +1,6 @@
 jwt:
-  secret: "AravindUma1330AravindUma1330AravindUma1330AravindUma1330AravindUma1330AravindUma1330"
-  expirationMs: 1000
+  secret: "c2VjdXJlQXJhdmluZFVtYTEzMzBjcmVhdGVkS2V5Rm9ySFM1MTJTdXBlckpXVA=="
+  expirationMs: 900000
 
 server:
   port: 8090
