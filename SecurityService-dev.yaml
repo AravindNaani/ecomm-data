@@ -1,6 +1,7 @@
 jwt:
   secret: "c2VjdXJlQXJhdmluZFVtYTEzMzBjcmVhdGVkS2V5Rm9ySFM1MTJTdXBlckpXVA=="
   expirationMs: 900000
+  refreshExpirationMs: 604800000
 
 server:
   port: 8090
