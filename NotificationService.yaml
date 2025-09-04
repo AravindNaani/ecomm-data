@@ -15,6 +15,7 @@ twilio: # SMS OTP config
   auth-token: 35695545554a2c9ee0b09f7d86c02425
   from-number: +15513487478   # Twilio number
 
-kafka:
-  bootstrap-servers: localhost:9092
-  group-id: notification-service
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+    group-id: notification-service
