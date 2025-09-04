@@ -1,0 +1,16 @@
+mail: # Gmail SMTP (dev only)
+  host: smtp.gmail.com
+  port: 587
+  username: aravindbujji7@gmail.com
+  password: mvbl nbdi hxjn sxcs   # app password, not real gmail password
+  properties:
+    mail:
+      smtp:
+        auth: true
+        starttls:
+          enable: true
+
+twilio: # SMS OTP config
+  account-sid: ACa71f57f85ce6d75ec2ed23f2ac448d9a
+  auth-token: 35695545554a2c9ee0b09f7d86c02425
+  from-number: +15513487478   # Twilio number
