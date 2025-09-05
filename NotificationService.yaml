@@ -12,7 +12,7 @@ spring:
     host: smtp.gmail.com
     port: 587
     username: aravindbujji7@gmail.com
-    password: mvblnbdihxjnsxcs   # app password, not real gmail password
+    password: jetv gies dqrf oisq   # app password, not real gmail password
     properties:
       mail:
         smtp:
