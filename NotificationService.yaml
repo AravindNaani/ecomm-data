@@ -8,11 +8,11 @@ spring:
     bootstrap-servers: localhost:9092
     group-id: notification-service
 
-  mail: # Gmail SMTP (dev only)
+  mail:
     host: smtp.gmail.com
     port: 587
     username: aravindbujji7@gmail.com
-    password: "jetvgiesdqrfoisq"   # app password, not real gmail password
+    password: jetvgiesdqrfoisq
     properties:
       mail:
         smtp:
